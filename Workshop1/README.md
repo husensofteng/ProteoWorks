@@ -35,9 +35,10 @@ In order to obtain comparable results across the tools, we have specified the fo
   - Human, E.coli and Pfu protein databases (human_ecoli_pfu_target.fa) for 
   - Decoy for the Human, Ecoli and Pfu databases (human_ecoli_pfu_decoy.fa)
 
-### Scripts for post-processing the search output files, if needed
-  - output to percolator input (to be done)
-  - collecting the comparison params (to be done)
+### Scripts for post-processing the search output files, if needed (to be done).
+  - output to percolator input
+  - get MS quants for the identified PSMs
+  - collecting the comparison params
 
 Recent Search Algorithms
 ----
@@ -81,7 +82,7 @@ mzML
 
 
 
-Others (Optional)
+Other Search Algorithms (Optional)
 ----
 
 ### MS-Amanda*: Husen, Ioannis, Rui
