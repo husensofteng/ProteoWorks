@@ -23,6 +23,7 @@ In order to obtain comparable results across the tools, we have specified the fo
   - Tolerance: MS1: 10ppm; MS2: 0.02Da
   - Recursor sie: max: 5000 or 6000 Da and min: 700
   - Charge states: 2-6
+4. [Comparison criteria](https://docs.google.com/presentation/d/1TGD3SQ75VlNbgXM7J1cSvQtAXrDQMzNCU4HXLqAFM3Y/edit#slide=id.g59a9f429fd_0_21): 
 
 ### Datasets
 1. MS dataset - Human_Ecoli (mzML and raw files are available)
