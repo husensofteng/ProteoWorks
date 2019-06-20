@@ -1,4 +1,20 @@
-# Search Enigne Evaluation
+# Search Enigne Evaluation - ongoing
+The purpose of this workshop is to find an algorithm that can identify a larger number of hits in the deep proteomics datasets generated at our lab. 
+
+- Details about each tool, including documentation and specifications, should be reported in s correponding directory of the tool.
+
+- Only breif results to inform about the current status of run and final results should be reported here.
+
+Guidelines for running the tools
+---
+In order to obtain comparable results across the tools, we have specified the following parameters and datasets to be used for each whenever possible. Otherwise, state clearly in the tool's documentation if another variant is used.
+
+### Parameters
+
+### Datasets
+- mzML files
+
+- protein sequence databases
 
 
 ## Open-pFind (open database search)
@@ -62,3 +78,7 @@ windows-based (ran with mono), decoy (optional), accepts mzML
 running, ~10min for 1 fraction
 
 ## SEQUEST
+not tried yet
+
+## Mascot
+not tried yet
