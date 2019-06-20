@@ -4,7 +4,7 @@
 ## Open-pFind (open database search)
 windows-based and requires 
 
-running (22mins on 3 fractions and still runs) on 2 cores
+finished running (49mins) on 2 cores
 
 accepts mzML and raw files, no decoy is needed.
 
