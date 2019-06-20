@@ -29,7 +29,9 @@ to do:
 ## COSS (spectral library search):  Matthias, Mohammad
 Java-based
 
-problem with generating spectra libs, used an available one but failed and gave some exception. The tool seems unmature so dismiss for now.
+problem with generating spectra libs, used an available one but failed and gave some exception. 
+
+The tool seems unmature so dismiss for now.
 
 ## Comet*: Jorrit, David
 ## Others (optional):
@@ -44,7 +46,7 @@ finished running
 
 to do:
 
-run percolator for FDR calc and MS quant extraction
+- run percolator for FDR calc and MS quant extraction
 
 ## Morpheus (Matthias&Mohammad)
 windows-based (ran with mono), decoy (optional), accepts mzML
