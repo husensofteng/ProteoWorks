@@ -31,8 +31,7 @@ Group members: Mohammad and Matthias
 
   ```
 
-  It looks like Morpheus is not able to process unconventional amino acid characters in the database?
+6. With Rui's database it is working. Result files too large to commit.
 
 
 ## Conclusion
-?
