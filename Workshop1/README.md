@@ -34,10 +34,18 @@ problem with generating spectra libs, used an available one but failed and gave 
 The tool seems unmature so dismiss for now.
 
 ## Comet*: Jorrit, David
-## Others (optional):
+mzML
+12,700 psms (not sure) using FDR 1% (percolator)
+
+# Others (optional):
 ## MS-Amanda*: Husen, Ioannis, Rui
+not tried yet
+
 ## X!Tandem*: (Jorrit, David)
+not tied yet
+
 ## MaxQuant: Maan, Mohammad
+not tied yet
 
 ## MS-GF+ (Jorrit)
 linux-based, mzML, accepts decoy
