@@ -86,7 +86,7 @@ Other Search Algorithms (Optional)
 ----
 
 ### MS-Amanda*: Husen, Ioannis, Rui
-not tried yet
+PSMs identified, not analyzed yet
 
 ### X!Tandem*: (Jorrit, David)
 not tied yet
@@ -108,8 +108,11 @@ windows-based (ran with mono), decoy (optional), accepts mzML
 
 running, ~10min for 1 fraction
 
-### SEQUEST
-not tried yet
+### SEQUEST (Rui)
+PSMs identified, not analyzed yet
 
 ### Mascot
 not tried yet
+
+### Byonic (Rui)
+PSMs identified, not analyzed yet
