@@ -5,7 +5,7 @@ The purpose of this workshop is to find an algorithm that can identify a larger 
 
 - Only breif results to inform about the current status of run and final results should be reported here.
 
-## Guidelines for running the tools
+Guidelines for running the tools
 ---
 In order to obtain comparable results across the tools, we have specified the following parameters and datasets to be used for each whenever possible. Otherwise, state clearly in the tool's documentation if another variant is used.
 
@@ -16,7 +16,7 @@ In order to obtain comparable results across the tools, we have specified the fo
 
 - protein sequence databases
 
-## Recent Search Algorithms
+Recent Search Algorithms
 ----
 
 ### Open-pFind (open database search)
@@ -55,7 +55,7 @@ The tool seems unmature so dismiss for now.
 mzML
 12,700 psms (not sure) using FDR 1% (percolator)
 
-## Others (Optional)
+Others (Optional)
 ----
 
 ### MS-Amanda*: Husen, Ioannis, Rui
