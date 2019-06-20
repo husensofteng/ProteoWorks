@@ -24,7 +24,7 @@ In order to obtain comparable results across the tools, we have specified the fo
   - Recursor sie: max: 5000 or 6000 Da and min: 700
   - Charge states: 2-6
 
-### Datasets [Download here](https://www.dropbox.com/s/n0rzbhxk3fnm4dt/fasta_datasets_workshop1.tar.gz?dl=0):
+### Datasets
 1. MS dataset - Human_Ecoli (mzML and raw files are available)
   - fractions 7, 8 and 9 from The TMT set (partial, for testing purposes)
   - All 40 fractions from the TMT set (full, for final results, ask for request)
