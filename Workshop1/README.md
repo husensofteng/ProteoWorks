@@ -50,11 +50,11 @@ not tied yet
 ## MS-GF+ (Jorrit)
 linux-based, mzML, accepts decoy
 
-finished running
+output: 17,878 psms (ENSEMBL data, human_ecoli)
 
 to do:
 
-- run percolator for FDR calc and MS quant extraction
+- MS quant extraction
 
 ## Morpheus (Matthias&Mohammad)
 windows-based (ran with mono), decoy (optional), accepts mzML
