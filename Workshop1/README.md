@@ -5,16 +5,39 @@ The purpose of this workshop is to find an algorithm that can identify a larger 
 
 - Only breif results to inform about the current status of run and final results should be reported here.
 
+
 Guidelines for running the tools
 ---
 In order to obtain comparable results across the tools, we have specified the following parameters and datasets to be used for each whenever possible. Otherwise, state clearly in the tool's documentation if another variant is used.
 
 ### Parameters
+1. peptides:
+  - Tryptic only cut (P or K, except RP and KP)
+  - One missed cleavage is allowd
+  - No semi-tryptic peptides
+2. PTMs
+  - OX (M) var (max 2 per peptide): 15.994915 (avg 15.9994)
+  - CARRAM100Methyl (c) fix: 57.021464 (avg 57.0513)
+  - TMT6Plex (N, K) fix: 229.162932 (avg 229.2634)
+3. Algorithm
+  - Tolerance: MS1: 10ppm; MS2: 0.02Da
+  - Recursor sie: max: 5000 or 6000 Da and min: 700
+  - Charge states: 2-6
 
-### Datasets
-- mzML files
+### Datasets [Download here](https://www.dropbox.com/s/n0rzbhxk3fnm4dt/fasta_datasets_workshop1.tar.gz?dl=0):
+1. MS dataset - Human_Ecoli (mzML and raw files are available)
+  - fractions 7, 8 and 9 from The TMT set (partial, for testing purposes)
+  - All 40 fractions from the TMT set (full, for final results, ask for request)
+  
+2. Protein databases
+  - Human and E.coli protein databases (human_ecoli_target.fa)
+  - Decoy for the Human and Ecoli databases (human_ecoli_decoy.fa)
+  - Human, E.coli and Pfu protein databases (human_ecoli_pfu_target.fa) for 
+  - Decoy for the Human, Ecoli and Pfu databases (human_ecoli_pfu_decoy.fa)
 
-- protein sequence databases
+### Scripts for post-processing the search output files, if needed
+  - output to percolator input (to be done)
+  - collecting the comparison params (to be done)
 
 Recent Search Algorithms
 ----
@@ -54,6 +77,9 @@ The tool seems unmature so dismiss for now.
 ### Comet*: Jorrit, David
 mzML
 12,700 psms (not sure) using FDR 1% (percolator)
+
+
+
 
 Others (Optional)
 ----
