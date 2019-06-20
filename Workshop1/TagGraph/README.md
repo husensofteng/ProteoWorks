@@ -3,7 +3,8 @@
 
 Download the Docker image for TagGraph
 ---
-[link to docker image and sample data](https://sourceforge.net/projects/taggraph/files/Current%20Release/DockerContainer/linux/CentosDockerTG.1.7.1.tar.gz/download)
+[link to docker image and sample data](https://downloads.sourceforge.net/project/taggraph/Current%20Release/DockerContainer/linux/CentosDockerTG.1.7.1.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Ftaggraph%2Ffiles%2FCurrent%2520Release%2FDockerContainer%2Flinux%2FCentosDockerTG.1.7.1.tar.gz%2Fdownload&ts=1561042725) and see the 
+[ReadMe](https://downloads.sourceforge.net/project/taggraph/Current%20Release/DockerContainer/linux/readme.CentosDockerTG.1.7.1.pdf?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Ftaggraph%2Ffiles%2FCurrent%2520Release%2FDockerContainer%2Flinux%2Freadme.CentosDockerTG.1.7.1.pdf%2Fdownload&ts=1561042667)
 
 Change the downloaded file name and extract
 ---
