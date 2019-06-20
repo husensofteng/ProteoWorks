@@ -1,8 +1,9 @@
 ## Steps to run TagGrap
 
-1. Download the Docker image for TagGraph
--------------
-https://sourceforge.net/projects/taggraph/files/Current%20Release/DockerContainer/linux/CentosDockerTG.1.7.1.tar.gz/download
+
+Download the Docker image for TagGraph
+---
+[link to docker image and data](https://sourceforge.net/projects/taggraph/files/Current%20Release/DockerContainer/linux/CentosDockerTG.1.7.1.tar.gz/download)
 
 Change the downloaded file name and extract
 ---
