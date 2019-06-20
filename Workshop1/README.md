@@ -10,6 +10,7 @@ Guidelines for running the tools
 In order to obtain comparable results across the tools, we have specified the following parameters and datasets to be used for each whenever possible. Otherwise, state clearly in the tool's documentation if another variant is used.
 
 ### Parameters
+-------
 
 ### Datasets
 - mzML files
