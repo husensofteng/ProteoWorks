@@ -1,0 +1,5 @@
+Dataset	Proteins	MS/MS Spectra	PSM Morpheus Score Threshold	Target PSMs	Decoy PSMs	PSM FDR (%)	Unique Peptide Morpheus Score Threshold	Unique Target Peptides	Unique Decoy Peptides	Unique Peptide FDR (%)	Protein Group Summed Morpheus Score Threshold	Target Protein Groups	Decoy Protein Groups	Protein Group FDR (%)
+/Users/matthias.stahl/ki/bioinfo_workshop/data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr07.mzML	49646	103878	9,161	6959	69	0,988%	9,249	5801	58	0,997%	9,263	3223	32	0,993%	
+/Users/matthias.stahl/ki/bioinfo_workshop/data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr08.mzML	49646	105635	9,360	7026	70	0,993%	10,073	5777	57	0,983%	10,073	3279	32	0,976%	
+/Users/matthias.stahl/ki/bioinfo_workshop/data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr09.mzML	49646	107493	10,087	6558	65	0,988%	10,113	5509	55	0,995%	10,114	3188	24	0,753%	
+AGGREGATE	49646	317006	9,338	20494	205	0,997%	10,089	13358	134	1,000%	10,112	5483	53	0,967%	

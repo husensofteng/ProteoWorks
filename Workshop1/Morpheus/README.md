@@ -33,5 +33,10 @@ Group members: Mohammad and Matthias
 
 6. With Rui's database it is working. Result files too large to commit.
 
+  ```
+  mono morpheus_mzml_mono_cl.exe -d "../../../../data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr07.mzML,../../../../data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr08.mzML,../../../../data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr09.mzML" -minprecz 2 -maxprecz 6 -db "../../../../db/Uniprot_sp-Human_refp-EcoliK12_20190620.fasta" -ad true -p "trypsin" -mmc 1 -fm "carbamidomethylation of C;TMT sixplex/tenplex on peptide N-terminus;TMT sixplex/tenplex on K" -vm "oxidation of M" -precmtv 10.0 -precmtu "ppm" -minpmo 0 -maxpmo 0 -prodmtv 0.02 -prodmtu "Da" -mt 4 -o "../results"
+  ```
 
 ## Conclusion
+- ca. 10 min per `mzML` on MacBook Pro
+- `summary.tsv` contains some benchmarks
