@@ -1,0 +1,95 @@
+Morpheus (mzML Mono command line, revision 272) LOG
+
+PARAMETERS
+Input Data File: /Users/matthias.stahl/ki/bioinfo_workshop/data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr07.mzML
+Unknown Precursor Charge State Range: +2..+6
+Absolute MS/MS Intensity Threshold: disabled
+Relative MS/MS Intensity Threshold: disabled
+Maximum Number of MS/MS Peaks: 400
+Assign Charge States: true
+De-isotope: true
+Proteome Database: /Users/matthias.stahl/ki/bioinfo_workshop/db/Human_Ecoli_target.fa
+Create Target–Decoy Database On The Fly: true
+Protease: trypsin
+Maximum Missed Cleavages: 1
+Initiator Methionine Behavior: variable
+Fixed Modifications: carbamidomethylation of C, TMT sixplex/tenplex on peptide N-terminus, TMT sixplex/tenplex on K
+Variable Modifications: oxidation of M
+Maximum Variable Modification Isoforms Per Peptide: 1024
+Precursor Mass Tolerance: ±10 ppm (monoisotopic)
+Accepted Precursor Mass Errors: 0 Da
+Product Mass Tolerance: ±0.02 Da (monoisotopic)
+Maximum False Discovery Rate: 1%
+Consider Modified Forms as Unique Peptides: false
+Maximum Threads: 4
+Minimize Memory Usage: false
+Output Folder: /Users/matthias.stahl/ki/bioinfo_workshop/ProteoWorks/Workshop1/Morpheus/results
+
+RESULTS
+230.816 total (115.408 target + 0 decoy + 115.408 on-the-fly decoy) proteins
+
+
+System.AggregateException: One or more errors occurred. (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) (Index was outside the bounds of the array.) ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at Morpheus.AminoAcidMasses.GetMonoisotopicMass (System.Char aminoAcid) [0x00000] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.AminoAcidPolymer.get_MonoisotopicMass () [0x00020] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.DatabaseSearcher+<DoSearch>c__AnonStorey1.<>m__0 (Morpheus.Protein protein) [0x001b2] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0010f] in <6e26a535bf76467f9082042847cb7d56>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0026e] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica`1[TState].ExecuteAction (System.Boolean& yieldedBeforeCompletion) [0x00000] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica.Execute () [0x00023] in <6e26a535bf76467f9082042847cb7d56>:0 
+   --- End of inner exception stack trace ---
+  at System.Threading.Tasks.TaskReplicator.Run[TState] (System.Threading.Tasks.TaskReplicator+ReplicatableUserAction`1[TState] action, System.Threading.Tasks.ParallelOptions options, System.Boolean stopOnFirstFailure) [0x0005b] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.Parallel.PartitionerForEachWorker[TSource,TLocal] (System.Collections.Concurrent.Partitioner`1[TSource] source, System.Threading.Tasks.ParallelOptions parallelOptions, System.Action`1[T] simpleBody, System.Action`2[T1,T2] bodyWithState, System.Action`3[T1,T2,T3] bodyWithStateAndIndex, System.Func`4[T1,T2,T3,TResult] bodyWithStateAndLocal, System.Func`5[T1,T2,T3,T4,TResult] bodyWithEverything, System.Func`1[TResult] localInit, System.Action`1[T] localFinally) [0x00188] in <6e26a535bf76467f9082042847cb7d56>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Threading.Tasks.Parallel.ThrowSingleCancellationExceptionOrOtherException (System.Collections.ICollection exceptions, System.Threading.CancellationToken cancelToken, System.Exception otherException) [0x0000b] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.Parallel.PartitionerForEachWorker[TSource,TLocal] (System.Collections.Concurrent.Partitioner`1[TSource] source, System.Threading.Tasks.ParallelOptions parallelOptions, System.Action`1[T] simpleBody, System.Action`2[T1,T2] bodyWithState, System.Action`3[T1,T2,T3] bodyWithStateAndIndex, System.Func`4[T1,T2,T3,TResult] bodyWithStateAndLocal, System.Func`5[T1,T2,T3,T4,TResult] bodyWithEverything, System.Func`1[TResult] localInit, System.Action`1[T] localFinally) [0x001e7] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.Parallel.ForEachWorker[TSource,TLocal] (System.Collections.Generic.IEnumerable`1[T] source, System.Threading.Tasks.ParallelOptions parallelOptions, System.Action`1[T] body, System.Action`2[T1,T2] bodyWithState, System.Action`3[T1,T2,T3] bodyWithStateAndIndex, System.Func`4[T1,T2,T3,TResult] bodyWithStateAndLocal, System.Func`5[T1,T2,T3,T4,TResult] bodyWithEverything, System.Func`1[TResult] localInit, System.Action`1[T] localFinally) [0x00050] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.Parallel.ForEach[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Threading.Tasks.ParallelOptions parallelOptions, System.Action`1[T] body) [0x0002a] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at Morpheus.DatabaseSearcher.DoSearch () [0x0101f] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+---> (Inner Exception #0) System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at Morpheus.AminoAcidMasses.GetMonoisotopicMass (System.Char aminoAcid) [0x00000] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.AminoAcidPolymer.get_MonoisotopicMass () [0x00020] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.DatabaseSearcher+<DoSearch>c__AnonStorey1.<>m__0 (Morpheus.Protein protein) [0x001b2] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0010f] in <6e26a535bf76467f9082042847cb7d56>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0026e] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica`1[TState].ExecuteAction (System.Boolean& yieldedBeforeCompletion) [0x00000] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica.Execute () [0x00023] in <6e26a535bf76467f9082042847cb7d56>:0 <---
+
+---> (Inner Exception #1) System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at Morpheus.AminoAcidMasses.GetMonoisotopicMass (System.Char aminoAcid) [0x00000] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.AminoAcidPolymer.get_MonoisotopicMass () [0x00020] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.DatabaseSearcher+<DoSearch>c__AnonStorey1.<>m__0 (Morpheus.Protein protein) [0x001b2] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0010f] in <6e26a535bf76467f9082042847cb7d56>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0026e] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica`1[TState].ExecuteAction (System.Boolean& yieldedBeforeCompletion) [0x00000] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica.Execute () [0x00023] in <6e26a535bf76467f9082042847cb7d56>:0 <---
+
+---> (Inner Exception #2) System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at Morpheus.AminoAcidMasses.GetMonoisotopicMass (System.Char aminoAcid) [0x00000] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.AminoAcidPolymer.get_MonoisotopicMass () [0x00020] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.DatabaseSearcher+<DoSearch>c__AnonStorey1.<>m__0 (Morpheus.Protein protein) [0x001b2] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0010f] in <6e26a535bf76467f9082042847cb7d56>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0026e] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica`1[TState].ExecuteAction (System.Boolean& yieldedBeforeCompletion) [0x00000] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica.Execute () [0x00023] in <6e26a535bf76467f9082042847cb7d56>:0 <---
+
+---> (Inner Exception #3) System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at Morpheus.AminoAcidMasses.GetMonoisotopicMass (System.Char aminoAcid) [0x00000] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.AminoAcidPolymer.get_MonoisotopicMass () [0x00020] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at Morpheus.DatabaseSearcher+<DoSearch>c__AnonStorey1.<>m__0 (Morpheus.Protein protein) [0x001b2] in <c19cd36571be4e1c82621f0bf4b72e61>:0 
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0010f] in <6e26a535bf76467f9082042847cb7d56>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Threading.Tasks.Parallel+<>c__DisplayClass44_0`2[TSource,TLocal].<PartitionerForEachWorker>b__1 (System.Collections.IEnumerator& partitionState, System.Int32 timeout, System.Boolean& replicationDelegateYieldedBeforeCompletion) [0x0026e] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica`1[TState].ExecuteAction (System.Boolean& yieldedBeforeCompletion) [0x00000] in <6e26a535bf76467f9082042847cb7d56>:0 
+  at System.Threading.Tasks.TaskReplicator+Replica.Execute () [0x00023] in <6e26a535bf76467f9082042847cb7d56>:0 <---
+

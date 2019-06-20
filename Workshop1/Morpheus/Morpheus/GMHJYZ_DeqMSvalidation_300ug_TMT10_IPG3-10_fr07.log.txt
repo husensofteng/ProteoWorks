@@ -1,0 +1,29 @@
+Morpheus (mzML Mono command line, revision 272) LOG
+
+PARAMETERS
+Input Data File: /Users/matthias.stahl/ki/bioinfo_workshop/data/GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr07.mzML
+Unknown Precursor Charge State Range: +2..+4
+Absolute MS/MS Intensity Threshold: disabled
+Relative MS/MS Intensity Threshold: disabled
+Maximum Number of MS/MS Peaks: 400
+Assign Charge States: true
+De-isotope: true
+Proteome Database: /Users/matthias.stahl/ki/bioinfo_workshop/db/concat.fa
+Create Target–Decoy Database On The Fly: true
+Protease: trypsin (no proline rule)
+Maximum Missed Cleavages: 2
+Initiator Methionine Behavior: variable
+Fixed Modifications: none
+Variable Modifications: none
+Maximum Variable Modification Isoforms Per Peptide: 1024
+Precursor Mass Tolerance: ±2.1 Da (monoisotopic)
+Accepted Precursor Mass Errors: 0 Da
+Product Mass Tolerance: ±0.015 Da (monoisotopic)
+Maximum False Discovery Rate: 1%
+Consider Modified Forms as Unique Peptides: false
+Maximum Threads: 4
+Minimize Memory Usage: false
+Output Folder: /Users/matthias.stahl/ki/bioinfo_workshop/ProteoWorks/Workshop1/Morpheus/Morpheus
+
+RESULTS
+461.630 total (230.815 target + 0 decoy + 230.815 on-the-fly decoy) proteins
