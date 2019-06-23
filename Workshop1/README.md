@@ -44,12 +44,14 @@ In order to obtain comparable results across the tools, we have specified the fo
 Recent Search Algorithms
 ----
 
-### Open-pFind (open database search)
-windows-based and requires 
+### Open-pFind (open database search): Rui, Maan, Yanbo 
+windows-based, 64-bit only, require activation to run
 
-finished running (49mins) on 2 cores
+finished running in : 49mins  (using 2 cores)
 
-accepts mzML and raw files, no decoy is needed.
+accepts as input: mzML, raw, MGF or WIFF files, no decoy database is needed.
+
+Detailed parameters and results are found in pFind3 directory.
 
 ### MSFragger (open database search): Taner, Mattias V, Tanvir
 Java-based
