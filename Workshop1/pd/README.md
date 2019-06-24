@@ -1,10 +1,6 @@
 # PD2.2
 
-human+Ecoli fr7,8,9 TMT10plex
-----
-
-## Number of unique peptide sequences
-(M ox modification not counted as extra peps)
+Number of unique peptide sequences from human+Ecoli fr7,8,9 TMT10plex (M ox modification not counted as extra peps)
 
 ### Byonic : 16769
 
