@@ -15,9 +15,10 @@ In order to obtain comparable results across the tools, we have specified the fo
   - Tryptic only cut (P or K, except RP and KP)
   - One missed cleavage is allowd
   - No semi-tryptic peptides
+  - min length>=7 and max length<=40
 2. PTMs
-  - OX (M) var (max 2 per peptide): 15.994915 (avg 15.9994)
-  - CARRAM100Methyl (c) fix: 57.021464 (avg 57.0513)
+  - Oxidation (M) var (max 2 per peptide): 15.994915 (avg 15.9994)
+  - Carbamidomethyl (c) fix: 57.021464 (avg 57.0513)
   - TMT6Plex (N, K) fix: 229.162932 (avg 229.2634)
 3. Algorithm
   - Tolerance: MS1: 10ppm; MS2: 0.02Da
