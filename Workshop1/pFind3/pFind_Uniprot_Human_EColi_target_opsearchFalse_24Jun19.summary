@@ -1,0 +1,99 @@
+Peptide Level:
+Spectra: 44734
+Scans: 40692
+Peptides: 20343
+Sequences: 17563
+Proteins: 7058
+Protein Groups: 6154
+Avg_Seq_Cov: 8.9207%
+Decoy Spectra: 256
+T/D Distribution: 71515/66744=1.07148
+Decoy Peptides: 203
+Decoy Proteins: 408
+Decoy Protein Groups: 61
+------------------
+Cleavage:
+Specific: 20038 98.50%
+C-term Specific: 305 1.50%
+N-term Specific: 0 0.00%
+Non-Specific: 0 0.00%
+------------------
+Modifications:
+Name	#Spectra	#Sites	Frequency
+TMT6plex[AnyN-term]	20172 (99.16%)	20172	99.16%
+TMT6plex[K]	11147 (54.80%)	12454	99.88%
+Oxidation[M]	3013 (14.81%)	3367	40.55%
+Carbamidomethyl[C]	767 (3.77%)	771	90.81%
+------------------
+Length Distribution of Sequences:
+7	1168	5.74%
+8	1471	7.23%
+9	1627	8.00%
+10	1611	7.92%
+11	1611	7.92%
+12	1589	7.81%
+13	1481	7.28%
+14	1314	6.46%
+15	1212	5.96%
+16	1148	5.64%
+17	921	4.53%
+18	753	3.70%
+19	754	3.71%
+20	665	3.27%
+21	500	2.46%
+22	398	1.96%
+23	350	1.72%
+24	284	1.40%
+25	264	1.30%
+26	212	1.04%
+27	176	0.87%
+28	149	0.73%
+29	133	0.65%
+30	112	0.55%
+31	86	0.42%
+32	79	0.39%
+33	64	0.31%
+34	49	0.24%
+35	37	0.18%
+36	46	0.23%
+37	28	0.14%
+38	21	0.10%
+39	19	0.09%
+40	11	0.05%
+------------------
+Charge Distribution of Peptides:
+2	14508	71.32%
+3	5204	25.58%
+4	593	2.92%
+5	37	0.18%
+6	1	0.00%
+------------------
+Missed Cleavages of Peptides:
+0	16531	81.26%
+1	3812	18.74%
+------------------
+Mixed Spectra of MS/MS Scans:
+1	36735	90.28%
+2	3873	9.52%
+3	83	0.20%
+4	1	0.00%
+------------------
+Average Ion Errors:
+1:	GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr07
+	Precursor_Mean:	0.24	Precursor_Sd:	1.51
+	Fragment_Mean:	-0.00	Fragment_Sd:	0.00
+2:	GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr08
+	Precursor_Mean:	0.72	Precursor_Sd:	1.56
+	Fragment_Mean:	-0.00	Fragment_Sd:	0.00
+3:	GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr09
+	Precursor_Mean:	0.81	Precursor_Sd:	1.48
+	Fragment_Mean:	0.00	Fragment_Sd:	0.00
+------------------
+ID Rate:
+GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr07	13128 / 34474 = 38.08%
+GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr08	13964 / 34275 = 40.74%
+GMHJYZ_DeqMSvalidation_300ug_TMT10_IPG3-10_fr09	13600 / 34005 = 39.99%
+Overall	40692 / 102754 = 39.60%
+------------------
+[Version Info]
+2019.1.20.20.2.8
