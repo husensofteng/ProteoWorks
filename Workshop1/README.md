@@ -1,5 +1,5 @@
 # Search Enigne Evaluation - ongoing
-The purpose of this workshop is to find an algorithm that can identify a larger number of hits in the deep proteomics datasets generated at our lab. 
+The purpose of this workshop is to find an algorithm that can identify a larger number of hits in the deep proteomics datasets generated at our lab. See related [slides](https://docs.google.com/presentation/d/1TGD3SQ75VlNbgXM7J1cSvQtAXrDQMzNCU4HXLqAFM3Y/edit?usp=sharing). 
 
 - Details about each tool, including documentation and specifications, should be reported in s correponding directory of the tool.
 
@@ -30,8 +30,8 @@ In order to obtain comparable results across the tools, we have specified the fo
   - fractions 7, 8 and 9 from The TMT set (partial, for testing purposes)
   - All 40 fractions from the TMT set (full, for final results, ask for request)
   
-2. Protein databases
-  - Human and E.coli protein databases (human_ecoli_target.fa)
+2. Protein databases (located uner the datasets/ directory)
+  - Human and E.coli protein databases (human_ecoli_target.fa, use the uniprot version)
   - Decoy for the Human and Ecoli databases (human_ecoli_decoy.fa)
   - Human, E.coli and Pfu protein databases (human_ecoli_pfu_target.fa) for 
   - Decoy for the Human, Ecoli and Pfu databases (human_ecoli_pfu_decoy.fa)
