@@ -1,0 +1,17 @@
+*.fa
+*.fasta
+*.log
+*gffread*
+gffread*/
+py-pgatk-*/
+*mskcc*
+database_*/
+ensembl_files/
+*.zip
+*.tar*
+*.gz
+*checkpoint*
+config/
+*.svg
+*.png
+*.pdf
