@@ -9,7 +9,6 @@ database_*/
 ensembl_files/
 *.zip
 *.tar*
-*.gz
 *checkpoint*
 config/
 *.svg
